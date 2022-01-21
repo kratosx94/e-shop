@@ -1,0 +1,42 @@
+2022-01-18T10:15:37+00:00 CRITICAL Uncaught Error: Call to undefined function get_theme_meta() in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:86
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 86
+
+2022-01-18T10:17:11+00:00 CRITICAL Uncaught Error: Call to undefined function get_theme_meta() in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:86
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 86
+
+2022-01-18T12:57:44+00:00 CRITICAL syntax error, unexpected identifier "checked", expecting variable or "{" or "$" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 332
+
+2022-01-18T12:59:44+00:00 CRITICAL syntax error, unexpected identifier "checked", expecting variable or "{" or "$" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 332
+
+2022-01-18T13:01:44+00:00 CRITICAL syntax error, unexpected identifier "checked", expecting variable or "{" or "$" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 332
+
+2022-01-18T13:03:44+00:00 CRITICAL syntax error, unexpected identifier "checked", expecting variable or "{" or "$" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 332
+
+2022-01-18T13:30:18+00:00 CRITICAL syntax error, unexpected identifier "checked", expecting variable or "{" or "$" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 332
+
+2022-01-18T13:31:18+00:00 CRITICAL syntax error, unexpected identifier "checked", expecting variable or "{" or "$" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 332
+
+2022-01-18T13:33:18+00:00 CRITICAL syntax error, unexpected identifier "checked", expecting variable or "{" or "$" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 332
+
+2022-01-18T13:34:26+00:00 CRITICAL syntax error, unexpected identifier "checked", expecting variable or "{" or "$" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 332
+
+2022-01-18T13:35:26+00:00 CRITICAL syntax error, unexpected identifier "checked", expecting variable or "{" or "$" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 332
+
+2022-01-18T13:37:26+00:00 CRITICAL syntax error, unexpected identifier "checked", expecting variable or "{" or "$" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 332
+
+2022-01-18T13:39:26+00:00 CRITICAL syntax error, unexpected identifier "checked", expecting variable or "{" or "$" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 332
+
+2022-01-18T13:41:26+00:00 CRITICAL syntax error, unexpected identifier "checked", expecting variable or "{" or "$" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 332
+
+2022-01-18T13:43:26+00:00 CRITICAL syntax error, unexpected identifier "checked", expecting variable or "{" or "$" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 332
+

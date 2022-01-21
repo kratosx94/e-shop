@@ -1,0 +1,13 @@
+2022-01-05T10:34:05+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\e-shop/wp-content/themes/e-shop/class-wp-bootstrap-navwalker.php' (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\functions.php:79
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): register_navwalker('')
+#1 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\e-shop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\e-shop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\e-shop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\e-shop\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\functions.php on line 79
+

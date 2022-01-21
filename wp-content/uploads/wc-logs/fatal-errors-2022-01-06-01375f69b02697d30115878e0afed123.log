@@ -1,0 +1,2 @@
+2022-01-06T16:52:14+00:00 CRITICAL Out of memory (allocated 41943040) (tried to allocate 12288 bytes) in C:\xampp\htdocs\e-shop\wp-includes\blocks.php on line 202
+

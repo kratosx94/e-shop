@@ -1,0 +1,108 @@
+2022-01-10T12:37:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "e_shop_woocommerce_header_add_to_cart_fragment" not found or invalid function name in C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\e-shop\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#2 C:\xampp\htdocs\e-shop\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(425): WC_AJAX::get_refreshed_fragments()
+#3 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): WC_AJAX::add_to_cart('')
+#4 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\e-shop\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_add_to_...')
+#7 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#8 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#9 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php on line 303
+
+2022-01-10T12:37:39+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "e_shop_woocommerce_header_add_to_cart_fragment" not found or invalid function name in C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\e-shop\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#2 C:\xampp\htdocs\e-shop\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(425): WC_AJAX::get_refreshed_fragments()
+#3 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): WC_AJAX::add_to_cart('')
+#4 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\e-shop\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_add_to_...')
+#7 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#8 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#9 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php on line 303
+
+2022-01-10T12:37:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "e_shop_woocommerce_header_add_to_cart_fragment" not found or invalid function name in C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\e-shop\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#2 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#3 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\e-shop\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_get_ref...')
+#6 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#7 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#8 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(13): do_action('template_redire...')
+#10 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php on line 303
+
+2022-01-10T12:37:44+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "e_shop_woocommerce_header_add_to_cart_fragment" not found or invalid function name in C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\e-shop\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#2 C:\xampp\htdocs\e-shop\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(425): WC_AJAX::get_refreshed_fragments()
+#3 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): WC_AJAX::add_to_cart('')
+#4 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\e-shop\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_add_to_...')
+#7 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#8 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#9 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php on line 303
+
+2022-01-10T12:41:01+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "e_shop_woocommerce_header_add_to_cart_fragment" not found or invalid function name in C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\e-shop\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(191): apply_filters('woocommerce_add...', Array)
+#2 C:\xampp\htdocs\e-shop\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(425): WC_AJAX::get_refreshed_fragments()
+#3 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): WC_AJAX::add_to_cart('')
+#4 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\e-shop\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_add_to_...')
+#7 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#8 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#9 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php on line 303
+
+2022-01-10T15:35:54+00:00 CRITICAL syntax error, unexpected token ")" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 19
+
+2022-01-10T15:41:52+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Customize_Manager::add_settings() in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php:15
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): e_shop_customizer(Object(WP_Customize_Manager))
+#1 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\e-shop\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): WP_Customize_Manager->wp_loaded('')
+#5 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\e-shop\wp-settings.php(600): do_action('wp_loaded')
+#8 C:\xampp\htdocs\e-shop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\e-shop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\e-shop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\e-shop\wp-admin\customize.php(13): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 15
+

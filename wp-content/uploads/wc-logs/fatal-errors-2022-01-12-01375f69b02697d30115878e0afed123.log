@@ -1,0 +1,57 @@
+2022-01-12T08:11:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\functions.php on line 102 and at least 2 expected in C:\xampp\htdocs\e-shop\wp-includes\plugin.php:394
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\functions.php(102): add_action()
+#1 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): e_shop_theme_config('')
+#2 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\e-shop\wp-settings.php(556): do_action('after_setup_the...')
+#5 C:\xampp\htdocs\e-shop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\e-shop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\e-shop\wp-cron.php(44): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-includes\plugin.php on line 394
+
+2022-01-12T09:47:13+00:00 CRITICAL syntax error, unexpected single-quoted string "slider_section", expecting ":" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 36
+
+2022-01-12T09:47:15+00:00 CRITICAL syntax error, unexpected single-quoted string "slider_section", expecting ":" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 36
+
+2022-01-12T09:47:19+00:00 CRITICAL syntax error, unexpected single-quoted string "slider_section", expecting ":" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 36
+
+2022-01-12T09:48:06+00:00 CRITICAL Uncaught Error: Object of class WP_Customize_Section could not be converted to string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): e_shop_customizer(Object(WP_Customize_Manager))
+#1 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\e-shop\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): WP_Customize_Manager->wp_loaded('')
+#5 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\e-shop\wp-settings.php(600): do_action('wp_loaded')
+#8 C:\xampp\htdocs\e-shop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\e-shop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\e-shop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\e-shop\wp-admin\customize.php(13): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 38
+
+2022-01-12T09:48:23+00:00 CRITICAL Uncaught Error: Object of class WP_Customize_Section could not be converted to string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): e_shop_customizer(Object(WP_Customize_Manager))
+#1 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\e-shop\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(303): WP_Customize_Manager->wp_loaded('')
+#5 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\e-shop\wp-settings.php(600): do_action('wp_loaded')
+#8 C:\xampp\htdocs\e-shop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\e-shop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\e-shop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\e-shop\wp-admin\customize.php(13): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 38
+
+2022-01-12T10:22:52+00:00 CRITICAL syntax error, unexpected token ";", expecting ":" in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\inc\customizer.php on line 166
+
+2022-01-12T11:05:51+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 67
+

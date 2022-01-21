@@ -1,0 +1,368 @@
+2022-01-19T12:47:05+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:47:13+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:47:41+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:47:52+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:47:57+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:48:04+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:48:11+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:48:16+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:48:30+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:48:35+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:48:39+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:48:40+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:48:41+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:48:42+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:48:44+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:48:47+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:48:49+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:48:57+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:50:29+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:50:39+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:50:53+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:51:05+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:51:29+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:52:25+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:53:06+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:55:04+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:57:15+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:57:49+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:57:56+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:58:06+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:58:10+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:58:44+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:58:52+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:59:20+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T12:59:21+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T13:00:37+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:93
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 93
+
+2022-01-19T13:02:02+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T13:03:23+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T13:03:33+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T13:07:25+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T13:09:13+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T13:09:46+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T13:10:11+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T13:10:19+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T13:10:46+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
+2022-01-19T13:11:09+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php:94
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\e-shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-shop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-content\themes\e-shop\template-home.php on line 94
+
