@@ -65,12 +65,18 @@ function e_shop_theme_config()
         register_nav_menus(
             array
             (
-                'nav_menu' => 'Navigation Menu',
-                'side_bar' => 'Side bar Menu',
-                'footer' => 'Footer Menu'
+                'nav_menu' => __('Navigation Menu','e-shop'),
+                'side_bar' => __('Side bar Menu',' e-shop'),
+                'footer' => __('Footer Menu','e-shop')
             )
         );
+
+        $textdomain = 'e-shop';
+        load_theme_textdomain($textdomain, get_stylesheet_directory() . '/language/');
+        load_theme_textdomain($textdomain, get_template_directory() . '/language/');
         // adding support for woocommerce
+
+
         add_theme_support('woocommerce',
         array
         (   // thumbnail image size
@@ -143,15 +149,16 @@ function e_shop_woocommerce_header_add_to_cart_fragment( $fragments ) {
     $fragments['span.items'] = ob_get_clean();
     return $fragments;
 }
+        // widgets
 add_action('widgets_init', 'e_shop_sidebars');
 function e_shop_sidebars()
 {
     register_sidebar(
             array
     (
-            'name' => 'My main sidebar',
+            'name' => __('My main sidebar','e-shop'),
             'id' => 'e-shop-sidebar-1',
-            'description' => 'Drop and drag your widget',
+            'description' => __('Drop and drag your widget','e-shop'),
             'before_widget'=> '<div id="%1$s" class="Widget %2$s  widget-wrapper">',
             'after_widget' => '</div>',
             'before_title' => '<h4 class="widget-title">',
@@ -160,9 +167,9 @@ function e_shop_sidebars()
     register_sidebar(
         array
         (
-            'name' => 'Shop page sidebar',
+            'name' =>  __('Shop page sidebar','e-shop'),
             'id' => 'e-shop-sidebar-shop',
-            'description' => 'drop your woocommerce widgets',
+            'description' => __('drop your woocommerce widgets','e-shop'),
             'before_widget'=> '<div id="%1$s" class="Widget %2$s  widget-wrapper">',
             'after_widget' => '</div>',
             'before_title' => '<h4 class="widget-title">',
@@ -171,9 +178,9 @@ function e_shop_sidebars()
     register_sidebar(
         array
         (
-            'name' => 'Footer widget left ',
+            'name' => __('Footer widget left ','e-shop'),
             'id' => 'e-shop-footer-widget-left',
-            'description' => 'footer widgets',
+            'description' => __('footer widgets','e-shop'),
             'before_widget'=> '<div id="%1$s" class="Widget %2$s  widget-wrapper">',
             'after_widget' => '</div>',
             'before_title' => '<h4 class="widget-title">',
@@ -182,9 +189,9 @@ function e_shop_sidebars()
     register_sidebar(
         array
         (
-            'name' => 'Footer widget center',
+            'name' => __('Footer widget center','e-shop'),
             'id' => 'e-shop-footer-widget-center',
-            'description' => 'footer widgets',
+            'description' => __('footer widgets','e-shop'),
             'before_widget'=> '<div id="%1$s" class="Widget %2$s  widget-wrapper">',
             'after_widget' => '</div>',
             'before_title' => '<h4 class="widget-title">',
@@ -193,9 +200,9 @@ function e_shop_sidebars()
     register_sidebar(
         array
         (
-            'name' => 'Footer widget right',
+            'name' => __('Footer widget right','e-shop'),
             'id' => 'e-shop-footer-widget-right',
-            'description' => 'footer widgets',
+            'description' => __('footer widgets','e-shop'),
             'before_widget'=> '<div id="%1$s" class="Widget %2$s  widget-wrapper">',
             'after_widget' => '</div>',
             'before_title' => '<h4 class="widget-title">',

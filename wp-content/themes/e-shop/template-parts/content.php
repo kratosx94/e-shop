@@ -13,14 +13,14 @@
     </div>
     <div class="meta">
         <p>
-            published by <?php the_author_posts_link();?> on <?php echo get_the_date();?>
+           <?php  _e('published by','e-shop');   the_author_posts_link();?> <?php _e('On','e-shop');  echo get_the_date();?>
             <br />
             <?php if(has_category()):?>
-                Categories <span> <?php the_category(' '); ?></span>
+                <?php _e('Categories','e-shop');?>: <span> <?php the_category(' '); ?></span>
             <?php endif;?>
             <br />
             <?php if(has_tag()):?>
-                Tags: <span> <?php the_tags('', ', '); ?></span>
+                <?php _e('Tags','e-shop'); ?>: <span> <?php the_tags('', ', '); ?></span>
             <?php endif; ?>
         </p>
     </div>

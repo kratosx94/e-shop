@@ -7,8 +7,8 @@ function e_shop_customizer($wp_customize)
         $wp_customize->add_section(
             'copyright_section', array
             (
-                'title' => 'Copyright Settings',
-                'description' => 'Copyright Sections'
+                'title' => __('Copyright Settings','e-shop'),
+                'description' => __('Copyright Sections','e-shop'),
             )
         );
             //copyrights text box
@@ -23,8 +23,8 @@ function e_shop_customizer($wp_customize)
             $wp_customize->add_control(
                 'copyright_settings', array
                 (
-                    'label' => 'Copyright',
-                    'description' => 'type copyright information',
+                    'label' => __('Copyright','e-shop'),
+                    'description' => __('type copyright information','e-shop'),
                     'section' => 'copyright_section',
                     'type' => 'text'
                 )
@@ -36,8 +36,8 @@ function e_shop_customizer($wp_customize)
     $wp_customize->add_section(
         'slider_section', array
         (
-            'title' => 'Slider settings',
-            'description' => 'Slider section'
+            'title' => __('Slider settings','e-shop'),
+            'description' => __('Slider section','e-shop')
         )
     );
     // #1 Slider 1 - page number 1
@@ -52,8 +52,8 @@ function e_shop_customizer($wp_customize)
     $wp_customize->add_control(
         'slider_settings_page1', array
         (
-            'label' => 'Slider page 1',
-            'description' => 'Slider page 1',
+            'label' => __('Slider page 1','e-shop'),
+            'description' => __('Slider page 1','e-shop'),
             'section' => 'slider_section',
             'type' => 'dropdown-pages'
         )
@@ -70,8 +70,8 @@ function e_shop_customizer($wp_customize)
     $wp_customize->add_control(
         'slider_settings_button_text1', array
         (
-            'label' => 'Button text page 1',
-            'description' => 'Button text page 1',
+            'label' => __('Button text page 1','e-shop'),
+            'description' => __('Button text page 1','e-shop'),
             'section' => 'slider_section',
             'type' => 'text'
         )
@@ -89,8 +89,8 @@ function e_shop_customizer($wp_customize)
     $wp_customize->add_control(
         'slider_settings_button_url1', array
         (
-            'label' => 'Page 1 url',
-            'description' => 'Page 1 url',
+            'label' => __('Page 1 url','e-shop'),
+            'description' => __('Page 1 url','e-shop'),
             'section' => 'slider_section',
             'type' => 'url'
         )
@@ -107,8 +107,8 @@ function e_shop_customizer($wp_customize)
         $wp_customize->add_control(
             'slider_settings_page2', array
             (
-                'label' => 'Slider page 2',
-                'description' => 'Slider page 2',
+                'label' => __('Slider page 2','e-shop'),
+                'description' => __('Slider page 2','e-shop'),
                 'section' => 'slider_section',
                 'type' => 'dropdown-pages'
             )
@@ -125,8 +125,8 @@ function e_shop_customizer($wp_customize)
         $wp_customize->add_control(
             'slider_settings_button_text2', array
             (
-                'label' => 'Button text page 2',
-                'description' => 'Button text page 2',
+                'label' => __('Button text page 2','e-shop'),
+                'description' => __('Button text page 2','e-shop'),
                 'section' => 'slider_section',
                 'type' => 'text'
             )
@@ -144,8 +144,8 @@ function e_shop_customizer($wp_customize)
         $wp_customize->add_control(
             'slider_settings_button_url2', array
             (
-                'label' => 'Page 2 url',
-                'description' => 'Page 2 url',
+                'label' => __('Page 2 url','e-shop'),
+                'description' => __('Page 2 url','e-shop'),
                 'section' => 'slider_section',
                 'type' => 'url'
             )
@@ -164,8 +164,8 @@ function e_shop_customizer($wp_customize)
             'slider_settings_page3', array
 
             (
-                'label' => 'Slider page 3',
-                'description' => 'Slider page 3',
+                'label' => __('Slider page 3','e-shop'),
+                'description' => __('Slider page 3','e-shop'),
                 'section' => 'slider_section',
                 'type' => 'dropdown-pages'
             )
@@ -182,8 +182,8 @@ function e_shop_customizer($wp_customize)
         $wp_customize->add_control(
             'slider_settings_button_text3', array
             (
-                'label' => 'Button text page 3',
-                'description' => 'Button text page 3',
+                'label' => __('Button text page 3','e-shop'),
+                'description' => __('Button text page 3','e-shop'),
                 'section' => 'slider_section',
                 'type' => 'text'
             )
@@ -201,8 +201,8 @@ function e_shop_customizer($wp_customize)
         $wp_customize->add_control(
             'slider_settings_button_url3', array
             (
-                'label' => 'Page 3 url',
-                'description' => 'Page 3 url',
+                'label' => __('Page 3 url','e-shop'),
+                'description' => __('Page 3 url','e-shop'),
                 'section' => 'slider_section',
                 'type' => 'url'
             )
@@ -211,8 +211,8 @@ function e_shop_customizer($wp_customize)
     $wp_customize->add_section(
             'home_page_section', array
             (
-                'title' => 'Home page product and blog settings',
-                'description' => 'Home section'
+                'title' => __('Home page product and blog settings','e-shop'),
+                'description' => __('Home section','e-shop'),
             )
         );
         // #1 of home page settings
@@ -227,8 +227,8 @@ function e_shop_customizer($wp_customize)
         $wp_customize->add_control(
             'home_page_settings', array
             (
-                'label' => 'popular products max number on the home page',
-                'description' => 'home blog and product settings',
+                'label' => __('popular products max number on the home page','e-shop'),
+                'description' => __('home blog and product settings','e-shop'),
                 'section' => 'home_page_section',
                 'type' => 'number'
             )
@@ -245,8 +245,8 @@ function e_shop_customizer($wp_customize)
         $wp_customize->add_control(
             'set_popular_max', array
             (
-                'label' => 'popular products max columns',
-                'description' => 'popular products max columns',
+                'label' => __('popular products max columns','e-shop'),
+                'description' => __('popular products max columns','e-shop'),
                 'section' => 'home_page_section',
                 'type' => 'number'
             )
@@ -264,8 +264,8 @@ function e_shop_customizer($wp_customize)
         $wp_customize->add_control(
             'home_new_arrivals_settings', array
             (
-                'label' => 'New arrivals max number',
-                'description' => 'New arrivals max number',
+                'label' => __('New arrivals max number','e-shop'),
+                'description' => __('New arrivals max number','e-shop'),
                 'section' => 'home_page_section',
                 'type' => 'number'
             )
@@ -282,8 +282,8 @@ function e_shop_customizer($wp_customize)
         $wp_customize->add_control(
             'set_new_arrivals_max', array
             (
-                'label' => 'New arrivals products max columns',
-                'description' => 'New arrivals products max columns',
+                'label' => __('New arrivals products max columns','e-shop'),
+                'description' => __('New arrivals products max columns','e-shop'),
                 'section' => 'home_page_section',
                 'type' => 'number'
             )
@@ -300,8 +300,8 @@ function e_shop_customizer($wp_customize)
         $wp_customize->add_control(
             'set_deal_show', array
             (
-                'label' => 'Show deal of the week?',
-                'description' => 'if you turn this on you will display deal of the week on the home page',
+                'label' => __('Show deal of the week?','e-shop'),
+                'description' => __('if you turn this on you will display deal of the week on the home page','e-shop'),
                 'section' => 'home_page_section',
                 'type' => 'checkbox'
             )
@@ -318,7 +318,7 @@ function e_shop_customizer($wp_customize)
         $wp_customize->add_control(
             'set_deal_week', array
             (
-                'label' => 'deal of week id',
+                'label' => __('deal of week id','e-shop'),
                 'description' => 'product id',
                 'section' => 'home_page_section',
                 'type' => 'number'

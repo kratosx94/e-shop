@@ -31,7 +31,7 @@
                         the_custom_logo();
                         else: ?>
                             <p class="site-title"><?php bloginfo('title'); ?> </p>
-                            <span><?php bloginfo('description');?></span>
+                            <span><?php bloginfo(__('description','e-shop'));?></span>
                             <?php endif;
                         ?>
                         </a>
@@ -48,14 +48,14 @@
                                         if(is_user_logged_in()):
                                         ?>
                                         <li>
-                                            <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id')));?>" class="nav-link">my account</a>
+                                            <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id')));?>" class="nav-link"><?php _e('my account','e-shop')?></a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo esc_url(wp_logout_url(get_permalink(get_option('woocommerce_myaccount_page_id'))));?>" class="nav-link">Logout</a>
+                                            <a href="<?php echo esc_url(wp_logout_url(get_permalink(get_option('woocommerce_myaccount_page_id'))));?>" class="nav-link"><?php _e('Logout','e-shop')?></a>
                                         </li>
                                         <?php else:?>
                                             <li>
-                                                <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id')));?>" class="nav-link">Login / Register</a>
+                                                <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id')));?>" class="nav-link"><?php _e('Login / Register','e-shop')?></a>
                                             </li>
                                         <?php endif; ?>
                                     </ul>

@@ -2,10 +2,11 @@
     <header>
         <h1><?php the_title(); ?></h1>
         <div class="meta">
-            <p>Published by <?php the_author_posts_link(); ?> on <?php echo get_the_date(); ?><br />
-                Categories: <span><?php the_category( ' ' ); ?><br/>
+            <p>
+                <?php  _e('published by','e-shop'); ?> <?php the_author_posts_link(); ?> <?php _e('On','e-shop'); ?> <?php echo get_the_date(); ?><br />
+                <?php _e('Categories','e-shop');?>: <span><?php the_category( ' ' ); ?><br/>
 						            <?php if(has_tag()): ?>
-                                        Tags: <span><?php the_tags( '', ', '); ?></span>
+                                        <?php _e('Tags','e-shop'); ?>: <span><?php the_tags( '', ', '); ?></span>
                                     <?php endif; ?>
             </p>
         </div>

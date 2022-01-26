@@ -9,14 +9,13 @@ get_header();
         <div class="container">
             <div class="error-404">
                 <header>
-                    <h2>Oops...Page not found!</h2>
-                    <p>The page you're looking for does not exist on this site.</p>
-
+                    <h2><?php _e('Oops...Page not found!','e-shop'); ?></h2>
+                    <p><?php _e('The page youre looking for does not exist on this site.', 'e-shop');?> </p>
                     <?php
                     the_widget('WP_Widget_Recent_Posts',
                     array
                     (
-                        'title' => 'Take a look at our other posts',
+                        'title' => __('Take a look at our other posts','e-shop'),
                         'number' => 3,
                     ));
                     ?>

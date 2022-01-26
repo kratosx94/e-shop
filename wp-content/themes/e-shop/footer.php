@@ -31,7 +31,7 @@
         <div class="container">
             <div class="row">
                 <div class="copyright-text col-12 col-md-6">
-                    <p><?php echo get_theme_mod('copyright_settings','copyright all rights reserved');?></p>
+                    <p><?php echo get_theme_mod('copyright_settings',__('copyright all rights reserved','e-shop'));?></p>
                 </div>
                 <nav class="footer-menu col-12 col-md-6 text-left text-md-right">
 

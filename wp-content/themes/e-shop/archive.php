@@ -26,13 +26,13 @@
                         the_posts_pagination(
                             array
                             (
-                                'prev_text' => 'Previous',
-                                'next_text' => 'Next',
+                                'prev_text' => __('Previous','e-shop'),
+                                'next_text' => __('Next','e-shop'),
                             )
                         );
                     else:
                         ?>
-                        <p> nothing is here </p>
+                        <p><?php _e('nothing is here','e-shop')?> </p>
                     <?php
                     endif;
                     ?>
