@@ -13,7 +13,7 @@
     </div>
     <div class="meta">
         <p>
-           <?php  esc_html_e('published by','e-shop');   the_author_posts_link();?> <?php esc_html_e('On','e-shop');  echo esc_html(get_the_date());?>
+           <?php  esc_html_e('  published by    ','e-shop');   the_author_posts_link();?> <?php esc_html_e('  On  ','e-shop');  echo esc_html(get_the_date());?>
             <br />
             <?php if(has_category()):?>
                 <?php esc_html_e('Categories','e-shop');?>: <span> <?php the_category(' '); ?></span>

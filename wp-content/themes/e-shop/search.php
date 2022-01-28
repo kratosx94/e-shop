@@ -16,6 +16,8 @@
                 <div class="row">
                     <h1><?php esc_html_e('search results for','e-shop');?> <?php echo get_search_query(); ?></h1>
                     <?php
+                    get_search_form();
+
                     // if there is any post
                     if (have_posts()):
                         // load the post

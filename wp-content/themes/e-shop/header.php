@@ -22,7 +22,7 @@
         </section>
         <section class="top-bar">
             <div class="container">
-                <div class="row">
+                <div class="row d-flex align-items-center">
                     <div class="brand col-md-3 col-12 col-lg-2 text-center text-md-left ">
 
                         <a href="<?php echo esc_html(home_url('/'));?>">
@@ -30,7 +30,7 @@
                         if(has_custom_logo()) :
                         the_custom_logo();
                         else: ?>
-                            <p class="site-title"><?php bloginfo('title'); ?> </p>
+                            <p class="site-title "><?php bloginfo('title'); ?> </p>
                             <span><?php bloginfo(__('description','e-shop'));?></span>
                             <?php endif;
                         ?>
