@@ -37,7 +37,7 @@
                                     </h1>
                                     <div class="slider-description">
                                         <div class="subtitle"><?php esc_html__(the_content(),'e-shop'); ?></div>
-                                        <a href="<?php echo esc_url($slider_settings_button_url[$j]); ?>" class="link"><?php echo esc_url(__($slider_settings_button_text[$j],'e-shop')); ?></a>
+                                        <a href="<?php echo esc_url($slider_settings_button_url[$j]); ?>" class="link"><?php echo esc_html(__($slider_settings_button_text[$j],'e-shop')); ?></a>
                                     </div>
                                 </div>
                             </div>
@@ -64,21 +64,20 @@ if(class_exists('WooCommerce')):
         ?>
         <div class="container">
             <div class="section-title">
-                <h2><?php echo esc_html(get_theme_mod('set_popular_title', __('Popular products','e-shop'))); ?></h2>
+                <h2><?php echo esc_html(get_theme_mod('set_popular_title', __('Popular products','e-shop')  ) ); ?></h2>
             </div>
-            <?php echo do_shortcode('[products limit="'.esc_attr($popular_limit).'" columns="'.esc_attr($popular_col).'" orderby="popularity"]'); ?>
+            <?php echo do_shortcode('[products limit="' .   esc_attr($popular_limit)    .   '" columns="'.esc_attr($popular_col)    .   '" orderby="popularity"]'); ?>
         </div>
     </section>
     <section class="new-arrivals">
         <div class="container">
             <div class="section-title">
-                <h2><?php esc_html(get_theme_mod(' set_new_arrivals_title',__('New Arrivals','e-shop'))); ?></h2>
+                <h2><?php esc_html(get_theme_mod(' set_new_arrivals_title', __('New Arrivals','e-shop') )   ); ?></h2>
             </div>
-            <?php echo do_shortcode('[products limit ="'.esc_attr($new_arrivals_limit).'" columns="'.esc_attr($new_arrivals_col).'" orderby="date"]');?>
+            <?php echo do_shortcode('[products limit =" '    .   esc_attr($new_arrivals_limit)   .   '  " columns="'   .   esc_attr($new_arrivals_col) .   '    " orderby="date"]');?>
         </div>
     </section>
     <?php
-
     $showdeal = get_theme_mod('set_deal_show',0);
     $deal = get_theme_mod('set_deal_week');
     $currency = get_woocommerce_currency_symbol();
@@ -90,30 +89,27 @@ if(class_exists('WooCommerce')):
         <section class="deal-of-the-week">
             <div class="container">
                 <div class="section-title"></div>
-                <h2><?php echo esc_html(get_theme_mod('set_deal_title',__('Deal Of The Week','e-shop'))); ?></h2>
+                <h2><?php echo esc_html(get_theme_mod('set_deal_title', __('Deal Of The Week',  'e-shop'))  ); ?></h2>
                 <div class="row d-flex align-items-center">
                     <div class="deal-img col-md-6 col-12 ml-auto text-center">
-                        <?php echo get_the_post_thumbnail($deal,'large', array('class' => 'img-fluid'));?>
+                        <?php echo get_the_post_thumbnail($deal, 'large', array('class' => 'img-fluid') );?>
                     </div>
                     <div class="deal-desc col-md-4 col-12 mr-auto text-center">
-                        <?php  if(!empty($sale)) : ?>
+                        <?php  if(!empty($sale) ) : ?>
                             <span class="discount">
-                                    <?php
-                                    echo esc_html($discount_percentage . __('% OFF'));
-                                    ?>
+                                    <?php echo esc_html($discount_percentage . __('% OFF'));?>
                                 </span>
                         <?php endif; ?>
                         <h3>
                             <a href="<?php esc_url(get_permalink($deal));?>">
-                                <?php echo esc_html(get_the_title($deal));
-                                ?>
+                                <?php echo esc_html(get_the_title($deal)); ?>
                             </a>
                         </h3>
                         <p><?php echo esc_html(get_the_excerpt($deal)); ?></p>
                         <div class="prices">
                                     <span class="regular">
                                        <br>
-                                        Regular price
+                                        <?php esc_html_e('Regular Price','e-shop');?>
                                         <?php
                                         echo esc_html($currency);
                                         echo esc_html($regular);
@@ -124,7 +120,7 @@ if(class_exists('WooCommerce')):
                                 ?>
                                 <span class="sale">
                                         <br>
-                                        sale price
+                                    <?php esc_html_e('Sale Price','e-shop'); ?>
                                          <?php
                                          echo esc_html($currency);
                                          echo esc_html($sale);
@@ -132,7 +128,7 @@ if(class_exists('WooCommerce')):
                                     </span>
                             <?php endif; ?>
                         </div>
-                        <a href="<?php echo esc_url('?add-to-cart='. $deal);?>" class="add-to-cart"><?php esc_html_e('Add to Cart','e-shop'); ?></a>
+                        <a href="<?php echo esc_url('?add-to-cart=' . $deal);?>" class="add-to-cart"><?php esc_html_e('Add to Cart','e-shop'); ?></a>
                     </div>
 
                 </div>

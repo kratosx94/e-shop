@@ -1,7 +1,6 @@
 <?php
 function e_shop_wc_mod()
     {
-
         add_action('woocommerce_before_main_content', 'e_shop_open_container_row', 5);
         function e_shop_open_container_row()
         {
@@ -13,9 +12,6 @@ function e_shop_wc_mod()
         {
             echo '</div> </div>';
         }
-
-
-
         remove_action('woocommerce_sidebar', 'woocommerce_get_sidebar');
 
         // if its the shop page the user is visiting, it will display the sidebar.
@@ -34,7 +30,6 @@ function e_shop_wc_mod()
             }
             // showing the product description only on the shop page and hiding it from the home page
             add_action('woocommerce_after_shop_loop_item_title', 'the_excerpt',1);
-
         }
 
         add_action('woocommerce_before_main_content', 'e_shop_add_shop_tags', 9);
@@ -46,7 +41,6 @@ function e_shop_wc_mod()
         }else{// otherwise will display 100% width in the single product page
             echo '<div class="col">';
         }
-
         }
 
         add_action('woocommerce_after_main_content', 'e_shop_close_shop_tags', 4);

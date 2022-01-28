@@ -16,9 +16,8 @@
             // if there is any post
             if ($blog_posts->have_posts()):
                 // load the post
-                while($blog_posts->have_posts()): $blog_posts->the_post();
+                while($blog_posts->have_posts() ): $blog_posts->the_post();
                     ?>
-
                     <article class="col-12 col-md-6">
                         <a href="<?php the_permalink();?>">
                             <?php
@@ -27,11 +26,9 @@
                             endif;
                             ?>
                         </a>
-
                         <h3>
                             <a href="<?php the_permalink();?>">
                                 <?php the_title();?>
-
                             </a>
                         </h3>
                         <h4 class=""> </h4>
