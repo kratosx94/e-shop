@@ -2,7 +2,7 @@
 
 <section class="lab-blog">
     <div class="container">
-        <h2 class="blog-title"> Our Blog</h2>
+        <h2 class="blog-title"> <?php echo esc_html(get_theme_mod('set_blog_title',__('Our Blog','e-shop'))); ?></h2>
         <div class="row">
             <?php
             $args = array
@@ -42,7 +42,7 @@
                 wp_reset_postdata();
             else:
                 ?>
-                <p> nothing is here </p>
+                <p> <?php esc_html_e('nothing is here','e-shop'); ?> </p>
             <?php
             endif;
             ?>

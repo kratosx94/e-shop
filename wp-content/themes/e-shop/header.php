@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="brand col-md-3 col-12 col-lg-2 text-center text-md-left ">
 
-                        <a href="<?php echo home_url('/');?>">
+                        <a href="<?php echo esc_html(home_url('/'));?>">
                         <?php
                         if(has_custom_logo()) :
                         the_custom_logo();
@@ -48,20 +48,20 @@
                                         if(is_user_logged_in()):
                                         ?>
                                         <li>
-                                            <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id')));?>" class="nav-link"><?php _e('my account','e-shop')?></a>
+                                            <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id')));?>" class="nav-link"><?php esc_html_e('my account','e-shop')?></a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo esc_url(wp_logout_url(get_permalink(get_option('woocommerce_myaccount_page_id'))));?>" class="nav-link"><?php _e('Logout','e-shop')?></a>
+                                            <a href="<?php echo esc_url(wp_logout_url(get_permalink(get_option('woocommerce_myaccount_page_id'))));?>" class="nav-link"><?php esc_html_e('Logout','e-shop')?></a>
                                         </li>
                                         <?php else:?>
                                             <li>
-                                                <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id')));?>" class="nav-link"><?php _e('Login / Register','e-shop')?></a>
+                                                <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id')));?>" class="nav-link"><?php esc_html_e('Login / Register','e-shop')?></a>
                                             </li>
                                         <?php endif; ?>
                                     </ul>
                                 </div>
                                 <div class="cart text-right">
-                                    <a href="<?php echo wc_get_cart_url();?>"><span class="cart-icon"></span></a>
+                                    <a href="<?php echo esc_url(wc_get_cart_url());?>"><span class="cart-icon"></span></a>
                                     <span class="items"><?php echo WC()->cart->get_cart_contents_count();?></span>
                                 </div>
                             </div>

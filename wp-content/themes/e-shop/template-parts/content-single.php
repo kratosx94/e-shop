@@ -3,10 +3,10 @@
         <h1><?php the_title(); ?></h1>
         <div class="meta">
             <p>
-                <?php  _e('published by','e-shop'); ?> <?php the_author_posts_link(); ?> <?php _e('On','e-shop'); ?> <?php echo get_the_date(); ?><br />
-                <?php _e('Categories','e-shop');?>: <span><?php the_category( ' ' ); ?><br/>
+                <?php  esc_html_e('published by','e-shop'); ?> <?php the_author_posts_link(); ?> <?php esc_html_e('On','e-shop'); ?> <?php echo esc_html(get_the_date()); ?><br />
+                <?php esc_html_e('Categories','e-shop');?>: <span><?php the_category( ' ' ); ?><br/>
 						            <?php if(has_tag()): ?>
-                                        <?php _e('Tags','e-shop'); ?>: <span><?php the_tags( '', ', '); ?></span>
+                                        <?php esc_html_e('Tags','e-shop'); ?>: <span><?php the_tags( '', ', '); ?></span>
                                     <?php endif; ?>
             </p>
         </div>

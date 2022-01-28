@@ -14,6 +14,7 @@
         <section class="lab-blog">
             <div class="container">
                 <div class="row">
+                    <h1><?php esc_html_e('search results for','e-shop');?> <?php echo get_search_query(); ?></h1>
                     <?php
                     // if there is any post
                     if (have_posts()):
@@ -25,13 +26,13 @@
                         the_posts_pagination(
                             array
                             (
-                                'prev_text' => __('Previous','e-shop'),
-                                'next_text' => __('Next','e-shop'),
+                                'prev_text' => esc_html__('Previous','e-shop'),
+                                'next_text' => esc_html__('Next','e-shop'),
                             )
                         );
                     else:
                         ?>
-                        <p> <?php _e('nothing is here','e-shop'); ?> </p>
+                        <p> <?php esc_html_e('nothing is here','e-shop'); ?> </p>
                     <?php
                     endif;
                     ?>
